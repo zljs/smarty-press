@@ -14,7 +14,7 @@ let progress = 0
 
 function step() {
     // Add random progress
-    progress += Math.random() / 5;
+    progress += Math.random() / 3;
     progressBar.update(progress);
 
     if (progress < 1) {
